@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1264px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+body{
+   background: #1E252B;
+}
+
+
+.logo {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    &__title{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.btn{
+    border: none;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.78);
+    opacity: 0.78;
+    cursor: pointer;
+    padding: 12px 28px;
+    border-radius: 8px;
+
+    &:hover{
+        background: #FF6E30;
+        color: #FDF5FF;
+    }
+}
+
+.title{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.9);
+    &_left{
+        margin-bottom: 30px;
+    }
+    &_center{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+.subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    &_left{
+        margin-bottom: 60px;
+    }
+
+    &_center{
+        text-align: center;
+    }
+}
+
+.form{
+    width: 100%;
+    max-width: 497.66px;
+    height: 64px;
+    position: relative;
+    &__field{
+        width: 100%;
+        height: 64px;
+        background: #283036;
+        border-radius: 15px;
+        border: none;
+        padding-left: 55px;
+        color: white;
+        font-size: 18px;
+        appearance: none;
+    }
+    &__search{
+        position: absolute;
+        top: 20px;
+        left: 18px;
+    }
+}
+
+.button{
+    background: #FF6E30;
+    border-radius: 8px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+    &_form{
+        padding: 12px 36px;
+        position: absolute;
+        top: 8px;
+        right: 11px;
+    }
+    &_popup{
+        padding: 13px 0;
+        width: 100%;
+        margin: 29px 0 25px;
+    }
+}
+
+
+.brands__card_images{
+    background: rgba(44, 53, 61, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+}
+
+
+
+
+@import "./newcomer";
+@import "./popup";
+@import"./header";
+@import "./tools";
+@import"./overlay";
+@import"./home";
+
+
+
+
+
+
+
+

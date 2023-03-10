@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ANTOOLS</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <div class="logo">
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="38" height="38" rx="8" fill="#FF6E30"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9645 12.4359C19.632 12.4359 19.3089 12.4769 19 12.5542C19.1988 10.7606 19.9148 9.12398 20.9963 7.79492C25.2971 8.30464 28.6332 11.9646 28.6332 16.4029V22.7294C28.4605 22.7391 28.2864 22.744 28.1112 22.744C24.6706 22.744 21.6709 20.8483 20.1028 18.0423H23.9315V16.4029C23.9315 14.212 22.1554 12.4359 19.9645 12.4359Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25642 16.9507C9.25642 11.625 13.5738 7.30762 18.8995 7.30762C21.5623 7.30762 23.9731 8.38695 25.7182 10.132C24.1095 8.52336 21.9351 7.48044 19.5191 7.32724C17.894 9.12575 16.9044 11.5095 16.9044 14.1243C16.9044 14.3194 16.9099 14.5131 16.9208 14.7055C16.299 15.2538 15.9068 16.0565 15.9068 16.9507V17.6157H21.8922L17.5214 17.6158C18.9445 21.4968 22.672 24.2661 27.0462 24.2661C27.5546 24.2661 28.0543 24.2287 28.5425 24.1565V28.2563H21.8922V24.2661H15.9068V28.2563H9.25642V20.9409V16.9507Z" fill="white"/>
+                </svg>
+                <h1 class="logo__title">antools.</h1>
+            </div>
+
+            <ul class="header__list">
+
+                <li class="header__item">
+                     <a class="header__link" href="">
+                         Home
+                     </a>
+                </li>
+
+                <li class="header__item">
+                    <a  class="header__link" href="">
+                        Categories
+                    </a>
+                </li>
+
+                <li class="header__item">
+                    <a class="header__link" href="">
+                        My Collections
+                    </a>
+                </li>
+
+                <li class="header__item">
+                    <a class="header__link" href="">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+
+            <div class="header__btns">
+                <button class="btn btn_login" type="button"> Login </button>
+                <button class="btn btn_signUp" type="button"> Sign Up </button>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<main class="main">
+
+    <section class="home">
+        <div class="container">
+            <h2 class="title title_left">
+                Awesome tools for <br>
+                Designer & Developer.
+            </h2>
+
+            <p class="subtitle subtitle_left">
+                Antool is a web collection of information on paid <br>
+                or free Design and Development tools
+            </p>
+
+
+            <form class="form" action="">
+                <span class="form__search">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" stroke-opacity="0.38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 20.9999L16.65 16.6499" stroke="white" stroke-opacity="0.38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </span>
+                <input class="form__field" type="text" placeholder="find more than 430+ tools...">
+                <button class="button button_form" type="submit" >Search </button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="tools">
+        <div class="container">
+            <h2 class="title title_center" >Most Popular Tools</h2>
+            <p class="subtitle subtitle_center">Tools for the best Designers and Developers <br>
+                most popularly used in the world </p>
+            <div class="tools__row">
+                <div class="tools__card">
+                    <div class="tools__card-top">
+                       <img class="tools__card-img" src="./src/images/tools/icons_figma.svg" alt="Figma" >
+                       <div class="tools__card-info">
+                           <h3 class="tools__card-title" >FIGMA</h3>
+                          <p class="tools__card-price">Free</p>
+                       </div>
+                    </div>
+
+                    <p class="tools__card-text">
+                        Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit.
+                    </p>
+
+                    <div class="tools__card-end">
+                      <div class="tools__card-icons">
+                       <span class="tools__card-icon">
+                         <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.8333 0.25C16.3833 0.25 14.225 1.475 13 3.4C11.775 1.475 9.61667 0.25 7.16667 0.25C3.31667 0.25 0.166672 3.4 0.166672 7.25C0.166672 14.1917 13 21.25 13 21.25C13 21.25 25.8333 14.25 25.8333 7.25C25.8333 3.4 22.6833 0.25 18.8333 0.25Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                       <span class="tools__card-icon">
+                           <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.375 4.81249H13.625L10.3375 0.837489C10.2212 0.694097 10.0745 0.578254 9.90812 0.498286C9.7417 0.418318 9.55963 0.37621 9.375 0.374989H3.625C2.80826 0.364962 2.02083 0.678982 1.43512 1.24829C0.849416 1.8176 0.513166 2.59579 0.5 3.41249V18.5875C0.513166 19.4042 0.849416 20.1824 1.43512 20.7517C2.02083 21.321 2.80826 21.635 3.625 21.625H22.375C23.1917 21.635 23.9792 21.321 24.5649 20.7517C25.1506 20.1824 25.4868 19.4042 25.5 18.5875V7.84999C25.4868 7.03329 25.1506 6.2551 24.5649 5.68579C23.9792 5.11648 23.1917 4.80246 22.375 4.81249ZM23 18.5625C22.9953 18.6392 22.9753 18.7142 22.9411 18.783C22.9069 18.8518 22.8593 18.9131 22.801 18.9632C22.7427 19.0133 22.675 19.0512 22.6019 19.0747C22.5287 19.0982 22.4515 19.1068 22.375 19.1H3.625C3.54846 19.1068 3.47132 19.0982 3.39815 19.0747C3.32498 19.0512 3.25726 19.0133 3.199 18.9632C3.14073 18.9131 3.0931 18.8518 3.05892 18.783C3.02474 18.7142 3.00471 18.6392 3 18.5625V3.41249C3.00471 3.33578 3.02474 3.2608 3.05892 3.19197C3.0931 3.12315 3.14073 3.06187 3.199 3.01176C3.25726 2.96165 3.32498 2.92373 3.39815 2.90024C3.47132 2.87675 3.54846 2.86816 3.625 2.87499H8.7875L12.0375 6.84999C12.1538 6.99338 12.3005 7.10922 12.4669 7.18919C12.6333 7.26916 12.8154 7.31127 13 7.31249H22.375C22.4515 7.30566 22.5287 7.31425 22.6019 7.33774C22.675 7.36123 22.7427 7.39915 22.801 7.44926C22.8593 7.49937 22.9069 7.56065 22.9411 7.62948C22.9753 7.6983 22.9953 7.77328 23 7.84999V18.5625Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                      </div>
+                      <button class="btn" class="tools__card_btn"> Visit </button>
+                    </div>
+                </div>
+                <div class="tools__card">
+                    <div class="tools__card-top">
+                        <img class="tools__card-img" src="./src/images/tools/logos_sketch.svg" alt="Sketch" >
+                        <div class="tools__card-info">
+                            <h3 class="tools__card-title" >Sketch</h3>
+                            <p class="tools__card-price">Trial & Paid</p>
+                        </div>
+                    </div>
+
+                    <p class="tools__card-text">
+                        Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit.
+                    </p>
+
+                    <div class="tools__card-end">
+                        <div class="tools__card-icons">
+                       <span class="tools__card-icon">
+                         <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.8333 0.25C16.3833 0.25 14.225 1.475 13 3.4C11.775 1.475 9.61667 0.25 7.16667 0.25C3.31667 0.25 0.166672 3.4 0.166672 7.25C0.166672 14.1917 13 21.25 13 21.25C13 21.25 25.8333 14.25 25.8333 7.25C25.8333 3.4 22.6833 0.25 18.8333 0.25Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                            <span class="tools__card-icon">
+                           <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.375 4.81249H13.625L10.3375 0.837489C10.2212 0.694097 10.0745 0.578254 9.90812 0.498286C9.7417 0.418318 9.55963 0.37621 9.375 0.374989H3.625C2.80826 0.364962 2.02083 0.678982 1.43512 1.24829C0.849416 1.8176 0.513166 2.59579 0.5 3.41249V18.5875C0.513166 19.4042 0.849416 20.1824 1.43512 20.7517C2.02083 21.321 2.80826 21.635 3.625 21.625H22.375C23.1917 21.635 23.9792 21.321 24.5649 20.7517C25.1506 20.1824 25.4868 19.4042 25.5 18.5875V7.84999C25.4868 7.03329 25.1506 6.2551 24.5649 5.68579C23.9792 5.11648 23.1917 4.80246 22.375 4.81249ZM23 18.5625C22.9953 18.6392 22.9753 18.7142 22.9411 18.783C22.9069 18.8518 22.8593 18.9131 22.801 18.9632C22.7427 19.0133 22.675 19.0512 22.6019 19.0747C22.5287 19.0982 22.4515 19.1068 22.375 19.1H3.625C3.54846 19.1068 3.47132 19.0982 3.39815 19.0747C3.32498 19.0512 3.25726 19.0133 3.199 18.9632C3.14073 18.9131 3.0931 18.8518 3.05892 18.783C3.02474 18.7142 3.00471 18.6392 3 18.5625V3.41249C3.00471 3.33578 3.02474 3.2608 3.05892 3.19197C3.0931 3.12315 3.14073 3.06187 3.199 3.01176C3.25726 2.96165 3.32498 2.92373 3.39815 2.90024C3.47132 2.87675 3.54846 2.86816 3.625 2.87499H8.7875L12.0375 6.84999C12.1538 6.99338 12.3005 7.10922 12.4669 7.18919C12.6333 7.26916 12.8154 7.31127 13 7.31249H22.375C22.4515 7.30566 22.5287 7.31425 22.6019 7.33774C22.675 7.36123 22.7427 7.39915 22.801 7.44926C22.8593 7.49937 22.9069 7.56065 22.9411 7.62948C22.9753 7.6983 22.9953 7.77328 23 7.84999V18.5625Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                        </div>
+                        <button class="btn" class="tools__card_btn"> Visit </button>
+                    </div>
+                </div>
+                <div class="tools__card">
+                    <div class="tools__card-top">
+                        <img class="tools__card-img" src="src/images/tools/vector.svg" alt="Vector" >
+                        <div class="tools__card-info">
+                            <h3 class="tools__card-title" >Visual Studio Code</h3>
+                            <p class="tools__card-price">Free</p>
+                        </div>
+                    </div>
+
+                    <p class="tools__card-text">
+                        Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit.
+                    </p>
+
+                    <div class="tools__card-end">
+                        <div class="tools__card-icons">
+                       <span class="tools__card-icon">
+                         <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.8333 0.25C16.3833 0.25 14.225 1.475 13 3.4C11.775 1.475 9.61667 0.25 7.16667 0.25C3.31667 0.25 0.166672 3.4 0.166672 7.25C0.166672 14.1917 13 21.25 13 21.25C13 21.25 25.8333 14.25 25.8333 7.25C25.8333 3.4 22.6833 0.25 18.8333 0.25Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                            <span class="tools__card-icon">
+                           <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.375 4.81249H13.625L10.3375 0.837489C10.2212 0.694097 10.0745 0.578254 9.90812 0.498286C9.7417 0.418318 9.55963 0.37621 9.375 0.374989H3.625C2.80826 0.364962 2.02083 0.678982 1.43512 1.24829C0.849416 1.8176 0.513166 2.59579 0.5 3.41249V18.5875C0.513166 19.4042 0.849416 20.1824 1.43512 20.7517C2.02083 21.321 2.80826 21.635 3.625 21.625H22.375C23.1917 21.635 23.9792 21.321 24.5649 20.7517C25.1506 20.1824 25.4868 19.4042 25.5 18.5875V7.84999C25.4868 7.03329 25.1506 6.2551 24.5649 5.68579C23.9792 5.11648 23.1917 4.80246 22.375 4.81249ZM23 18.5625C22.9953 18.6392 22.9753 18.7142 22.9411 18.783C22.9069 18.8518 22.8593 18.9131 22.801 18.9632C22.7427 19.0133 22.675 19.0512 22.6019 19.0747C22.5287 19.0982 22.4515 19.1068 22.375 19.1H3.625C3.54846 19.1068 3.47132 19.0982 3.39815 19.0747C3.32498 19.0512 3.25726 19.0133 3.199 18.9632C3.14073 18.9131 3.0931 18.8518 3.05892 18.783C3.02474 18.7142 3.00471 18.6392 3 18.5625V3.41249C3.00471 3.33578 3.02474 3.2608 3.05892 3.19197C3.0931 3.12315 3.14073 3.06187 3.199 3.01176C3.25726 2.96165 3.32498 2.92373 3.39815 2.90024C3.47132 2.87675 3.54846 2.86816 3.625 2.87499H8.7875L12.0375 6.84999C12.1538 6.99338 12.3005 7.10922 12.4669 7.18919C12.6333 7.26916 12.8154 7.31127 13 7.31249H22.375C22.4515 7.30566 22.5287 7.31425 22.6019 7.33774C22.675 7.36123 22.7427 7.39915 22.801 7.44926C22.8593 7.49937 22.9069 7.56065 22.9411 7.62948C22.9753 7.6983 22.9953 7.77328 23 7.84999V18.5625Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                        </div>
+                        <button class="btn" class="tools__card_btn"> Visit </button>
+                    </div>
+                </div>
+                <div class="tools__card">
+                    <div class="tools__card-top">
+                        <img class="tools__card-img" src="./src/images/tools/notionn.svg" alt="Notion" >
+                        <div class="tools__card-info">
+                            <h3 class="tools__card-title" >Notion</h3>
+                            <p class="tools__card-price">Free & Paid</p>
+                        </div>
+                    </div>
+
+                    <p class="tools__card-text">
+                        Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit.
+                    </p>
+
+                    <div class="tools__card-end">
+                        <div class="tools__card-icons">
+                       <span class="tools__card-icon">
+                         <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.8333 0.25C16.3833 0.25 14.225 1.475 13 3.4C11.775 1.475 9.61667 0.25 7.16667 0.25C3.31667 0.25 0.166672 3.4 0.166672 7.25C0.166672 14.1917 13 21.25 13 21.25C13 21.25 25.8333 14.25 25.8333 7.25C25.8333 3.4 22.6833 0.25 18.8333 0.25Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                            <span class="tools__card-icon">
+                           <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.375 4.81249H13.625L10.3375 0.837489C10.2212 0.694097 10.0745 0.578254 9.90812 0.498286C9.7417 0.418318 9.55963 0.37621 9.375 0.374989H3.625C2.80826 0.364962 2.02083 0.678982 1.43512 1.24829C0.849416 1.8176 0.513166 2.59579 0.5 3.41249V18.5875C0.513166 19.4042 0.849416 20.1824 1.43512 20.7517C2.02083 21.321 2.80826 21.635 3.625 21.625H22.375C23.1917 21.635 23.9792 21.321 24.5649 20.7517C25.1506 20.1824 25.4868 19.4042 25.5 18.5875V7.84999C25.4868 7.03329 25.1506 6.2551 24.5649 5.68579C23.9792 5.11648 23.1917 4.80246 22.375 4.81249ZM23 18.5625C22.9953 18.6392 22.9753 18.7142 22.9411 18.783C22.9069 18.8518 22.8593 18.9131 22.801 18.9632C22.7427 19.0133 22.675 19.0512 22.6019 19.0747C22.5287 19.0982 22.4515 19.1068 22.375 19.1H3.625C3.54846 19.1068 3.47132 19.0982 3.39815 19.0747C3.32498 19.0512 3.25726 19.0133 3.199 18.9632C3.14073 18.9131 3.0931 18.8518 3.05892 18.783C3.02474 18.7142 3.00471 18.6392 3 18.5625V3.41249C3.00471 3.33578 3.02474 3.2608 3.05892 3.19197C3.0931 3.12315 3.14073 3.06187 3.199 3.01176C3.25726 2.96165 3.32498 2.92373 3.39815 2.90024C3.47132 2.87675 3.54846 2.86816 3.625 2.87499H8.7875L12.0375 6.84999C12.1538 6.99338 12.3005 7.10922 12.4669 7.18919C12.6333 7.26916 12.8154 7.31127 13 7.31249H22.375C22.4515 7.30566 22.5287 7.31425 22.6019 7.33774C22.675 7.36123 22.7427 7.39915 22.801 7.44926C22.8593 7.49937 22.9069 7.56065 22.9411 7.62948C22.9753 7.6983 22.9953 7.77328 23 7.84999V18.5625Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                        </div>
+                        <button class="btn" class="tools__card_btn"> Visit </button>
+                    </div>
+                </div>
+                <div class="tools__card">
+                    <div class="tools__card-top">
+                        <img class="tools__card-img" src="./src/images/tools/slack.svg" alt="Slack" >
+                        <div class="tools__card-info">
+                            <h3 class="tools__card-title" >Slack</h3>
+                            <p class="tools__card-price">Free & Paid</p>
+                        </div>
+                    </div>
+
+                    <p class="tools__card-text">
+                        Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit.
+                    </p>
+
+                    <div class="tools__card-end">
+                        <div class="tools__card-icons">
+                       <span class="tools__card-icon">
+                         <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.8333 0.25C16.3833 0.25 14.225 1.475 13 3.4C11.775 1.475 9.61667 0.25 7.16667 0.25C3.31667 0.25 0.166672 3.4 0.166672 7.25C0.166672 14.1917 13 21.25 13 21.25C13 21.25 25.8333 14.25 25.8333 7.25C25.8333 3.4 22.6833 0.25 18.8333 0.25Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                            <span class="tools__card-icon">
+                           <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.375 4.81249H13.625L10.3375 0.837489C10.2212 0.694097 10.0745 0.578254 9.90812 0.498286C9.7417 0.418318 9.55963 0.37621 9.375 0.374989H3.625C2.80826 0.364962 2.02083 0.678982 1.43512 1.24829C0.849416 1.8176 0.513166 2.59579 0.5 3.41249V18.5875C0.513166 19.4042 0.849416 20.1824 1.43512 20.7517C2.02083 21.321 2.80826 21.635 3.625 21.625H22.375C23.1917 21.635 23.9792 21.321 24.5649 20.7517C25.1506 20.1824 25.4868 19.4042 25.5 18.5875V7.84999C25.4868 7.03329 25.1506 6.2551 24.5649 5.68579C23.9792 5.11648 23.1917 4.80246 22.375 4.81249ZM23 18.5625C22.9953 18.6392 22.9753 18.7142 22.9411 18.783C22.9069 18.8518 22.8593 18.9131 22.801 18.9632C22.7427 19.0133 22.675 19.0512 22.6019 19.0747C22.5287 19.0982 22.4515 19.1068 22.375 19.1H3.625C3.54846 19.1068 3.47132 19.0982 3.39815 19.0747C3.32498 19.0512 3.25726 19.0133 3.199 18.9632C3.14073 18.9131 3.0931 18.8518 3.05892 18.783C3.02474 18.7142 3.00471 18.6392 3 18.5625V3.41249C3.00471 3.33578 3.02474 3.2608 3.05892 3.19197C3.0931 3.12315 3.14073 3.06187 3.199 3.01176C3.25726 2.96165 3.32498 2.92373 3.39815 2.90024C3.47132 2.87675 3.54846 2.86816 3.625 2.87499H8.7875L12.0375 6.84999C12.1538 6.99338 12.3005 7.10922 12.4669 7.18919C12.6333 7.26916 12.8154 7.31127 13 7.31249H22.375C22.4515 7.30566 22.5287 7.31425 22.6019 7.33774C22.675 7.36123 22.7427 7.39915 22.801 7.44926C22.8593 7.49937 22.9069 7.56065 22.9411 7.62948C22.9753 7.6983 22.9953 7.77328 23 7.84999V18.5625Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                        </div>
+                        <button class="btn" class="tools__card_btn"> Visit </button>
+                    </div>
+                </div>
+                <div class="tools__card">
+                    <div class="tools__card-top">
+                        <img class="tools__card-img" src="./src/images/tools/invision-icon%20.svg" alt="Invision" >
+                        <div class="tools__card-info">
+                            <h3 class="tools__card-title" >Invision</h3>
+                            <p class="tools__card-price">Free & Paid</p>
+                        </div>
+                    </div>
+
+                    <p class="tools__card-text">
+                        Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit.
+                    </p>
+
+                    <div class="tools__card-end">
+                        <div class="tools__card-icons">
+                       <span class="tools__card-icon">
+                         <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.8333 0.25C16.3833 0.25 14.225 1.475 13 3.4C11.775 1.475 9.61667 0.25 7.16667 0.25C3.31667 0.25 0.166672 3.4 0.166672 7.25C0.166672 14.1917 13 21.25 13 21.25C13 21.25 25.8333 14.25 25.8333 7.25C25.8333 3.4 22.6833 0.25 18.8333 0.25Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                            <span class="tools__card-icon">
+                           <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.375 4.81249H13.625L10.3375 0.837489C10.2212 0.694097 10.0745 0.578254 9.90812 0.498286C9.7417 0.418318 9.55963 0.37621 9.375 0.374989H3.625C2.80826 0.364962 2.02083 0.678982 1.43512 1.24829C0.849416 1.8176 0.513166 2.59579 0.5 3.41249V18.5875C0.513166 19.4042 0.849416 20.1824 1.43512 20.7517C2.02083 21.321 2.80826 21.635 3.625 21.625H22.375C23.1917 21.635 23.9792 21.321 24.5649 20.7517C25.1506 20.1824 25.4868 19.4042 25.5 18.5875V7.84999C25.4868 7.03329 25.1506 6.2551 24.5649 5.68579C23.9792 5.11648 23.1917 4.80246 22.375 4.81249ZM23 18.5625C22.9953 18.6392 22.9753 18.7142 22.9411 18.783C22.9069 18.8518 22.8593 18.9131 22.801 18.9632C22.7427 19.0133 22.675 19.0512 22.6019 19.0747C22.5287 19.0982 22.4515 19.1068 22.375 19.1H3.625C3.54846 19.1068 3.47132 19.0982 3.39815 19.0747C3.32498 19.0512 3.25726 19.0133 3.199 18.9632C3.14073 18.9131 3.0931 18.8518 3.05892 18.783C3.02474 18.7142 3.00471 18.6392 3 18.5625V3.41249C3.00471 3.33578 3.02474 3.2608 3.05892 3.19197C3.0931 3.12315 3.14073 3.06187 3.199 3.01176C3.25726 2.96165 3.32498 2.92373 3.39815 2.90024C3.47132 2.87675 3.54846 2.86816 3.625 2.87499H8.7875L12.0375 6.84999C12.1538 6.99338 12.3005 7.10922 12.4669 7.18919C12.6333 7.26916 12.8154 7.31127 13 7.31249H22.375C22.4515 7.30566 22.5287 7.31425 22.6019 7.33774C22.675 7.36123 22.7427 7.39915 22.801 7.44926C22.8593 7.49937 22.9069 7.56065 22.9411 7.62948C22.9753 7.6983 22.9953 7.77328 23 7.84999V18.5625Z" fill="white" fill-opacity="0.38"/>
+</svg>
+                       </span>
+
+                        </div>
+                        <button class="btn" class="tools__card_btn"> Visit </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="newcomer">
+        <div class="container">
+            <div class="newcomer__content">
+                <div class="newcomer__content-left">
+                    <h2 class="newcomer__content-title"> Newcomer Tools </h2>
+                    <p class="newcomer__content-subtitle">
+                        Wow! see the latest update of the most <br>
+                        recommended tools from reliable designers <br>
+                        and developers
+                    </p>
+
+                    <button class="newcomer__content-btn">
+                        Explore more
+                    </button>
+                </div>
+
+                <div class="newcomer__content-right">
+                    <div class="newcomer__content-card">
+                        <div class="newcomer__content-header">
+                            <div>
+                                <img src="./src/images/newcomer/zeplin.png" alt="zeplin">
+                            </div>
+                            <div>
+                                <p class="newcomer__content-text"> Zeplin</p>
+                                <span class="newcomer__content-type"> Free & Paid </span>
+                            </div>
+
+                            <div>
+                                <p class="newcomer__content-info">
+                                    Lorem ipsum dolor sit amet, <br>
+                                    consectetur adipiscing elit.
+                                </p>
+
+                                <div class="newcomer__content-footer">
+                                    <div class="newcomer__content-icons">
+                                        <span>
+                                            <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg"<path d="M18.8333 0.25C16.3833 0.25 14.225 1.475 13 3.4C11.775 1.475 9.61666 0.25 7.16666 0.25C3.31666 0.25 0.166656 3.4 0.166656 7.25C0.166656 14.1917 13 21.25 13 21.25C13 21.25 25.8333 14.25 25.8333 7.25C25.8333 3.4 22.6833 0.25 18.8333 0.25Z" fill="white" fill-opacity="0.38"/></svg>
+                                        </span>
+                                        <span>
+                                            <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.375 4.8125H13.625L10.3375 0.837504C10.2212 0.694112 10.0745 0.57827 9.90812 0.498301C9.7417 0.418333 9.55963 0.376225 9.375 0.375004H3.625C2.80826 0.364977 2.02083 0.678997 1.43512 1.2483C0.849416 1.81761 0.513166 2.59581 0.5 3.4125V18.5875C0.513166 19.4042 0.849416 20.1824 1.43512 20.7517C2.02083 21.321 2.80826 21.635 3.625 21.625H22.375C23.1917 21.635 23.9792 21.321 24.5649 20.7517C25.1506 20.1824 25.4868 19.4042 25.5 18.5875V7.85C25.4868 7.03331 25.1506 6.25511 24.5649 5.6858C23.9792 5.1165 23.1917 4.80248 22.375 4.8125ZM23 18.5625C22.9953 18.6392 22.9753 18.7142 22.9411 18.783C22.9069 18.8518 22.8593 18.9131 22.801 18.9632C22.7427 19.0133 22.675 19.0513 22.6019 19.0748C22.5287 19.0982 22.4515 19.1068 22.375 19.1H3.625C3.54846 19.1068 3.47132 19.0982 3.39815 19.0748C3.32498 19.0513 3.25726 19.0133 3.199 18.9632C3.14073 18.9131 3.0931 18.8518 3.05892 18.783C3.02474 18.7142 3.00471 18.6392 3 18.5625V3.4125C3.00471 3.3358 3.02474 3.26082 3.05892 3.19199C3.0931 3.12316 3.14073 3.06188 3.199 3.01177C3.25726 2.96167 3.32498 2.92375 3.39815 2.90026C3.47132 2.87676 3.54846 2.86818 3.625 2.875H8.7875L12.0375 6.85C12.1538 6.9934 12.3005 7.10924 12.4669 7.18921C12.6333 7.26918 12.8154 7.31128 13 7.3125H22.375C22.4515 7.30568 22.5287 7.31426 22.6019 7.33776C22.675 7.36125 22.7427 7.39917 22.801 7.44927C22.8593 7.49938 22.9069 7.56066 22.9411 7.62949C22.9753 7.69832 22.9953 7.7733 23 7.85V18.5625Z" fill="white" fill-opacity="0.38"/></svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+</main>
+
+<div class="overlay">
+    <div class="popup">
+        <form action="" class="popup__form popup__form_login">
+            <h2 class="popup__title">Вход в аккаунт</h2>
+            <p class="popup__subtitle">Сможете быстро оформлять заказы,<br>
+                использовать бонусы</p>
+            <div class="popup__item">
+                <label class="popup__label" for="email">Email</label>
+                <input class="popup__field" id="email" type="email" placeholder="Введите email">
+            </div>
+
+            <div class="popup__item">
+                <label class="popup__label" for="password">Пароль</label>
+                <input class="popup__field" id="password" type="password" placeholder="Введите пароль">
+            </div>
+
+            <button class="button button_popup" type="submit">Войти</button>
+            <p class="popup__info" >Продолжая, вы соглашаетесь со сбором и <br>
+                обработкой персональных данных и <br>
+                пользовательским соглашением</p>
+        </form>
+
+        <form action="" class="popup__form popup__form_signup">
+            <h2 class="popup__title">Регистрация</h2>
+            <p class="popup__subtitle">Сможете быстро оформлять заказы,<br>
+                использовать бонусы</p>
+            <div class="popup__item">
+                <label class="popup__label" for="email">Email</label>
+                <input class="popup__field" id="email" type="email" placeholder="Введите email">
+            </div>
+
+            <div class="popup__item">
+                <label class="popup__label" for="password">Пароль</label>
+                <input class="popup__field" id="password" type="password" placeholder="Введите пароль">
+            </div>
+
+            <button class="button button_popup" type="submit">Войти</button>
+            <p class="popup__info" >Продолжая, вы соглашаетесь со сбором и <br>
+                обработкой персональных данных и <br>
+                пользовательским соглашением</p>
+        </form>
+
+
+        <span class="popup__close">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1.77617 0.304743C1.36985 -0.101581 0.711067 -0.101581 0.304743 0.304743C-0.101581 0.711067 -0.101581 1.36985 0.304743 1.77617L14.5286 16L0.304752 30.2238C-0.101572 30.6302 -0.101572 31.2889 0.304752 31.6953C0.711076 32.1016 1.36986 32.1016 1.77618 31.6953L16 17.4714L30.2238 31.6953C30.6301 32.1016 31.2889 32.1016 31.6953 31.6953C32.1016 31.2889 32.1016 30.6301 31.6953 30.2238L17.4714 16L31.6953 1.77618C32.1016 1.36985 32.1016 0.71107 31.6953 0.304746C31.2889 -0.101578 30.6302 -0.101578 30.2238 0.304746L16 14.5286L1.77617 0.304743Z" fill="white"/>
+</svg>
+        </span>
+    </div>
+</div>
+
+<script src="./src/js/main.js"></script>
+</body>
+</html>

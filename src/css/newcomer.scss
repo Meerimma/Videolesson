@@ -1,0 +1,125 @@
+.newcomer {
+  padding: 220px 0;
+
+  &__content {
+    display: flex;
+    column-gap: 223px;
+
+    &-title {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 130%;
+      color: rgba(250, 255, 255, 0.9);
+    }
+
+    &-subtitle {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 0.55);
+      margin: 30px 0 60px;
+    }
+
+    &-left {
+      width: 50%;
+    }
+
+    &-right {
+      display: flex;
+      column-gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    &-btn {
+      width: 198px;
+      height: 58px;
+      background: #FF6E30;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: #FFFFFF;
+      border-radius: 8px;
+      border: none;
+    }
+
+    &-card {
+      width: calc (50% - 12px);
+      padding: 28px 21px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: -3s;
+      margin-bottom: 50px;
+
+      &:hover {
+        background: rgba(40, 48, 54, 0.6);
+        backdrop-filter: blur(50px);
+        transition: -3s;
+        transform: translateY(-15px);
+      }
+    }
+
+    &-header {
+      display: flex;
+      column-gap: 34px;
+    }
+
+    &-text {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    &-type {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      color: rgba(255, 165, 55, 0.55);
+    }
+
+    &-info {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 10px;
+      color: rgba(255, 255, 255, 0.55);
+      margin: 30px 0 30px;
+    }
+
+    &-footer {
+      display: flex;
+      column-gap: 43px;
+    }
+
+    &-icons {
+      display: flex;
+      column-gap: 20px;
+      align-items: center;
+    }
+
+    &-footer-btn {
+      width: 106px;
+      height: 42px;
+      background: transparent;
+      border-radius: 8px;
+      border: none;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.55);
+      transition: -3s;
+      cursor: pointer;
+
+      &:hover {
+        transition: -3s;
+        background: #FF6E30;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+}
+
+
+

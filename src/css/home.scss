@@ -1,0 +1,11 @@
+.home{
+  padding: 104px 0 168px;
+  position: relative;
+
+  &::before{
+    content: url("../images/home/Illustration.png");
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
